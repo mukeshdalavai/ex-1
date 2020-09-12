@@ -7,16 +7,7 @@ import java.util.*;
 public class PalindromeSum {
         int a[] = new int[20];
         int c=0;
-        public void inarray(int n){
-            int i=0;
-            while(n>=1){
-                a[i]=n%10;
-                n=n/10;
-                i++;
-                c++;
-            }
 
-        }
         public boolean ispalindrome(){
             int b[] = new int[20];
             int p=0,sum=0;
@@ -44,7 +35,7 @@ public class PalindromeSum {
             }
 
         }
-        /*
+        
         public static void main(String[] args){
             int n;
             System.out.println(" Enter the number");
@@ -54,5 +45,5 @@ public class PalindromeSum {
             q.inarray(n);
             q.ispalindrome();
         }
-        */
+        
 }
